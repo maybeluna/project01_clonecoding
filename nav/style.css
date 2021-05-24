@@ -1,0 +1,93 @@
+* {
+    font-family: 'Source Sans Pro';
+}
+
+body{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit; /*부모 요소에서 값을 상속하도록 지정*/
+}
+
+nav{
+    display: flex;
+    background-color: blueviolet;
+    color: #f9f4f5;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+}
+
+.nav__headline {
+    font-size: 18pt;
+}
+.nav__headline i {
+    color: yellow;    
+}
+
+.nav__ham i {
+    display: none;
+}
+
+.nav__menu {
+    display: flex;
+    list-style: none;
+    padding-left: 0;   
+}
+
+.nav__menu li{
+    padding: 8px 12px;
+}
+
+.nav__menu li:hover {
+    background-color: rgba(255, 255, 0, 0.562);
+    border-radius: 4px;
+    color: black;
+}
+.nav__icons{
+    display: flex;
+    list-style: none;
+    padding-left: 0;    
+}
+
+.nav__icons li{
+    padding: 8px 12px;
+}
+
+.nav__toggleBth{
+    display: none;
+    position: absolute;
+    right: 32px;
+    font-size: 24px;
+    color: yellow;
+}
+
+@media screen and (max-width: 768px) {
+    nav{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 8px 24px;
+    }
+
+    .nav__menu {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .nav__menu li{
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav__icons{
+        justify-content: center;
+        width: 100%;
+    }
+
+    .nav__toggleBth{
+        display: block;
+    }
+}

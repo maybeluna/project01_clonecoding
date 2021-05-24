@@ -1,0 +1,243 @@
+:root {
+    /*font color*/
+    --blue_color: #1f398e;
+    --skayblue_color: #699dd7;
+    --lightblue_color: #d8e9f3;
+    --gray: #696f72;
+    --skylignt_color: #e7f2f9;
+
+    /*padding*/
+    --padding: 24px 200px;
+    --side_padding: 120px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Noto Sans KR 100', sans-serif;
+    color: var(--gray);
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+nev{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--lightblue_color);
+    padding: var(--padding);
+}    
+
+nev .menu{
+    display: flex;
+    list-style: none;
+    font-weight: 900;
+}
+
+nev .menu li{
+    padding: 0px 30px;
+}
+
+.poster {
+    display: flex;
+    justify-content: center;
+    padding: var(--padding);
+    background: var(--lightblue_color);
+    width: 100%;
+}
+
+.ad{
+    display: flex;
+    justify-content: space-between;
+    padding: var(--padding);
+}
+
+.video_ad{
+    display: flex;
+    flex-direction: column;
+    width: 68%;
+}
+
+.video_ad_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    width: 100%;
+}
+
+.video_ad_info span{
+    font-size: 20px;
+}
+
+.video_ad_info a{
+    font-size: 5px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.picture_ad{
+    width: 29%;
+    
+}
+
+.picture_ad ul{
+    list-style: none;
+}
+
+.picad01{
+    width: 325px;
+    height: 251px;
+    background: var(--skylignt_color)
+}
+
+.picad01 li{
+    padding: 24px 28px;
+}
+
+.li_11{
+    color: var(--blue_color);
+    font-weight: 700;
+}
+
+.li_12{
+    font-size: 22px;
+}
+
+.li_13{
+    font-size: 12px;
+    font-weight: 600;
+    
+}
+
+.picad02{
+    background-image: url('http://gcbmax.co.kr/img/banner_02_v02.png');
+    background-size: cover;
+    width: 325px;
+    height: 251px;
+}
+
+.picad02 li{
+    padding: 24px 28px;
+}
+
+.li_21{
+    color:mintcream;
+    font-weight: 700;
+}
+
+.li_22{
+    color: var(--blue_color);
+    font-size: 22px;
+    padding-bottom: 60px;
+}
+
+.medi{
+    display: flex;
+    flex-direction: column;
+    padding: var(--padding);
+}
+
+.medi_info{
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+}
+
+.detail_info{
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.detail_info span{
+    padding: 0;
+    margin: 0;
+    font-weight: 900;
+    color: black;
+}
+
+.detail_info span b{
+    font-size: 10px;
+    font-weight: 900;
+}
+
+.threeb{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+.threeb ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.threeb ul li{
+    padding: 12px;
+}
+
+.top span{
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+    font-weight: 600;
+}
+
+.top .blue{
+    color: var(--blue_color);
+}
+
+.top .sky{
+    color: var(--skayblue_color);
+}
+.mid{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.bottom{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.bottom p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.searching{
+    display: flex;
+    padding: var(--padding);
+}
+
+.lineup{
+    display: flex;
+    flex-direction: column;
+}
+
+.lineup_subject{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lineup_menu{
+    display: flex;
+    list-style: none;
+}
+
+.lineup_menu li{
+    padding: 5px;
+}

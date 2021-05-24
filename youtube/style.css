@@ -1,0 +1,193 @@
+* {
+    font-family: 'Roboto';
+}
+
+body{
+    margin:0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+nev{
+    display: flex;    
+    background-color: #212121;
+    color: floralwhite;
+    justify-content: space-between;
+    padding: 8px 8px;
+    font-size: 120%;
+}
+
+.nev_bar div.logo i{
+    color: red;
+}
+
+.nev_icon{
+    font-size: smaller;
+}
+
+main iframe{
+    width: 100%;
+}
+
+.info {
+    margin: 20px;
+}
+
+.hashtag{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    color: #1875d1;
+    font-size: smaller;
+    margin-bottom: 7px;
+    margin-top: 7px;   
+}
+
+.hashtag li{
+    padding: 2px;
+}
+
+.info .subject{
+    display: flex;
+    align-items: center;    
+}
+
+.info .subject i{
+    color: dimgray;
+}
+
+.static{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    font-size: small;
+    color: dimgray;
+    margin-top: 3px;
+}
+
+.static li{
+    padding: 2px
+}
+
+.marking{
+    justify-content: center;
+    padding: 20px;
+}
+
+.mark{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size:x-large;
+    color: dimgray;
+    padding-left: 0;
+    margin: 0;
+}
+
+.mark li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mark li i:hover{
+    color:dodgerblue
+}
+
+.mark li div{
+    font-size: small;
+    padding: 10px;
+}
+
+.produce{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid dimgray;
+    border-bottom: 1px solid dimgray;
+}
+
+.pro_info{
+    display: flex;
+    align-items: center;;
+    color:#1b1b1b;
+}
+
+.pro_info i{
+    font-size: xx-large;
+}
+
+.pro_info ul{
+    list-style: none;
+    padding-left: 10px;
+}
+
+#coolpeace {
+
+}
+
+#coolpeace_sub{
+    font-size: small;
+}
+
+.next_vedio{
+    margin: 20px;
+}
+
+.subcribe{
+    color: dimgray;
+}
+
+
+.up_next{
+    padding:;
+}
+
+
+.next_info{
+    list-style: none;
+    padding-left: 0;
+}
+
+.recommend{
+    display: flex;
+    flex-direction: column;
+}
+
+.recommend article{
+    display: flex;
+    align-items: center;
+    margin: 5px 0px;
+}
+
+.recommend article span{
+    display: flex;
+}
+
+span img {
+    width: 168px;
+}
+
+article span ul{
+    list-style: none;
+    padding-left: 0;
+    padding-left: 10px;
+}
+
+.rec_prod{
+    font-size: small;
+    color: dimgray;
+}
+
+.rec_n{
+    font-size: small;
+    color:dimgray;
+}
+
+.border{
+    border: 0px'
+}
